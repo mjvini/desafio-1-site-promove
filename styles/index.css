@@ -31,7 +31,8 @@ header{
     align-items: center;
     flex-shrink: 0;
     
-    background: linear-gradient(180deg, #010101 61.68%, rgba(1, 1, 1, 0.00) 121.03%);
+    /*background: linear-gradient(180deg, #010101 61.68%, rgba(1, 1, 1, 0.00) 121.03%);*/
+    background: #010101;
 }
 .logo{
     width: 145px; 
@@ -129,11 +130,11 @@ header{
     padding: 0px;
     gap: 44px;
     
-    position: absolute;
+    
     width: 840px;
     height: 282px;
-    left: 300px;
-    top: 292px;
+    
+    
     
 }
 
@@ -172,29 +173,36 @@ header{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
-    gap: 18px;
-
-    width: 410px;
-    height: 52px;
-
     
+    gap: 18px;
+   
 }
 
 .button-1{
 
-    width: 140px;
-    height: 12px;
+    
+    padding: 20px 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    border:2px solid #606060;
+    color: #DFDFDF;
+    background-color:#010101;
 
+}
+
+.button-2{
+
+    
+    padding: 20px 22px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
 
-    color: #DFDFDF;
-
-
-
+    color: #010101;
+    background-color: #DFDFDF;
 
 }
 
