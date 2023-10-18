@@ -9,6 +9,11 @@ html {
     text-decoration: none;
 }
 
+@font-face {
+    font-family:Poppins;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+ }
+
 body {
     display: grid;
     grid-template-columns: 1fr; /* Uma única coluna para o corpo */
@@ -110,7 +115,87 @@ header{
     display: flex;
     flex-direction: column;
     background-color: black;
+    justify-content: center;
+    align-items: center;
     
+}
+
+
+.caixa-1{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    
+    position: absolute;
+    width: 840px;
+    height: 282px;
+    left: 300px;
+    top: 292px;
+    
+}
+
+.proMove_title {
+    width: 840px;
+    height: 41px;
+    
+    font-family: 'Poppins';
+    
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 82px;
+    
+    color: #F9F9F9;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.bio{
+    width: 808px;
+    height: 101px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    color: #DFDFDF;
+
+}
+
+.buttons{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 18px;
+
+    width: 410px;
+    height: 52px;
+
+    
+}
+
+.button-1{
+
+    width: 140px;
+    height: 12px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #DFDFDF;
+
+
+
+
 }
 
 /*fim do corpo da pagina*/
