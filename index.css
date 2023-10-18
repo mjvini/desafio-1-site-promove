@@ -16,6 +16,13 @@ header{
     flex-shrink: 0;
     background: linear-gradient(180deg, #010101 61.68%, rgba(1, 1, 1, 0.00) 121.03%);
 }
+.logo{
+    width: 145px; 
+    height: 67px; 
+    justify-content: flex-start; 
+    align-items: center; gap: 63px; 
+    display: inline-flex
+}
 
 .proMove{
     text-align: center; 
