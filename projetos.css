@@ -12,7 +12,7 @@ html {
 body {
     display: grid;
     grid-template-columns: 1fr; /* Uma única coluna para o corpo */
-    grid-template-rows: auto auto auto; /* Cabeçalho, Corpo, Rodapé */
+    grid-template-rows: 0fr 4fr; /* Cabeçalho, Corpo, Rodapé */
     min-height: 100vh; /* Garante que o grid ocupe a altura total da janela */
     margin: 0;
 }
@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
-    background: black;
+    background: linear-gradient(180deg, #010101 61.68%, rgba(1, 1, 1, 0.00) 121.03%);
 }
 .logo{
     width: 145px; 
@@ -82,12 +82,33 @@ header{
     display: flex;
     align-items: center;
     gap: 34px;
+    transition: transform 0.3s;
+}
+.logo-twitter:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.logo-linkedin:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.logo-mail:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.logo-insta:hover{
+    color: white;
+    transform: scale(1.2);
 }
 /* fim do header*/
 /*-----------------------------------------------------------------------*/
 /*corpo da pagina*/
 
-
+.corpo-pagina{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
 /*fim do corpo da pagina*/
 /*-----------------------------------------------------------------------*/
 /*footer*/
@@ -97,7 +118,7 @@ footer{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: rgb(70, 70, 119); 
+    background-color: rgb(255, 255, 255); 
     
 }
 
