@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr; /* Uma única coluna para o corpo */
+    grid-template-rows: auto auto auto; /* Cabeçalho, Corpo, Rodapé */
+    min-height: 100vh; /* Garante que o grid ocupe a altura total da janela */
+    margin: 0;
+}
+
+header{
+    display: flex;
+    width: 1440px;
+    height: 107px;
+    padding: 20px 108px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #010101 61.68%, rgba(1, 1, 1, 0.00) 121.03%);
+}
+
+.proMove{
+    text-align: center; 
+    color: #F9F9F9; 
+    font-size: 32px; 
+    font-family: LED Dot-Matrix; 
+    font-weight: 400; 
+    text-transform: capitalize; 
+    word-wrap: break-word;
+}
