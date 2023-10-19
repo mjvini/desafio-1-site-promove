@@ -176,8 +176,8 @@ header{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    
     gap: 18px;
+    
    
 }
 
@@ -192,7 +192,7 @@ header{
     border:2px solid #606060;
     color: #DFDFDF;
     background-color:#010101;
-
+    cursor: pointer;
 }
 
 .button-2{
@@ -206,7 +206,7 @@ header{
 
     color: #010101;
     background-color: #DFDFDF;
-
+    cursor: pointer;
 }
 
 
@@ -256,12 +256,48 @@ header{
     height: 475px;
 }
 
+.service-icon{
+    
+    width: 65px;
+    height: 65px;
+    
+
+}
+
+.services-name{
+    width: 279px;
+    height: 17px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    line-height: 42.5px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F9F9F9;
+
+}
+
+.service-description{
+    width: 296px;
+    height: 109px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 32px;
+    text-align: center;
+    color: #868686;
+}
+
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 62px, 22px, 43px, 22px;
     gap: 40px;
     width: 348px;
     height: 475px;
     background-color: #010101;
+    align-items: center;
     
 }
 
@@ -299,10 +335,10 @@ header{
 
 .bandejapp-footer{
     display: flex;
-    width: 1,224px;
+    width: 1224px;
     height: 101px;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
 
 }
 
@@ -315,9 +351,12 @@ header{
     text-transform: capitalize;
     line-height: 42px;
     color: #DFDFDF;
+    
 }
 
 .bandejapp-button{
+    display: flex;
+    justify-content: center;
     width: 288px;
     height: 52px;
     
@@ -325,12 +364,14 @@ header{
     text-transform: capitalize;
     font-weight: 700;
     font-size: 16px;
+    align-items: center;
     top: 24.5px;
     left: 832px;
     color: #010101;
     background-color: #ededed;
     gap: 10px;
-
+    justify-content: center;
+    cursor: pointer;
 }
 
 .caixa-4{
@@ -368,6 +409,7 @@ header{
 
 .patrocinadores-card{
     background-color: #010101;
+    cursor: pointer;
     
 }
 
