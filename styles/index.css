@@ -121,18 +121,21 @@ header{
     
 }
 
+.caixa{
+    width: 100%;
+    height: 100vh;
+    
+}
+
 
 .caixa-1{
     display: flex;
     flex-direction: column;
-    
+    background-color: black;
     align-items: center;
+    justify-content: center;
     padding: 0px;
     gap: 44px;
-    
-    
-    width: 840px;
-    height: 282px;
     
     
     
@@ -204,6 +207,176 @@ header{
     color: #010101;
     background-color: #DFDFDF;
 
+}
+
+
+.caixa-2{
+    background-color: #202020;
+    
+}
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    width: 1,224px;
+    height: 620px;
+    padding: 60px 108px;
+    gap: 72px;
+}
+
+.services-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    line-height: 82.5px;
+    text-transform: capitalize;
+    gap: 30px;
+}
+
+.services-title{
+    font-family: Inter;
+    font-size: 24px;
+    color: #868686;
+}
+
+.services-question{
+    font-family: Inter;
+    font-size: 36px;
+    color:#F9F9F9
+}
+
+.services-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 1,224px;
+    height: 475px;
+}
+
+.card{
+    padding: 62px, 22px, 43px, 22px;
+    gap: 40px;
+    width: 348px;
+    height: 475px;
+    background-color: #010101;
+    
+}
+
+.caixa-3{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.projeto-recente{
+    margin-top: 260px;
+    width: 1,224px;
+    height: 720px;
+    top: 1750px;
+    left: 108px;
+    gap:72px;
+    
+}
+
+.bandejapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1,224px;
+    height: 547px;
+    background-color: #202020;
+}
+
+.bandejapp-logo{
+    width: 597.38px;
+    height: 142px;
+    
+}
+
+.bandejapp-footer{
+    display: flex;
+    width: 1,224px;
+    height: 101px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bandejapp-description{
+    width: 808px;
+    height: 101px;
+    font-family: "Inter";
+    font-weight: 500;
+    size: 24px;
+    text-transform: capitalize;
+    line-height: 42px;
+    color: #DFDFDF;
+}
+
+.bandejapp-button{
+    width: 288px;
+    height: 52px;
+    
+    font-family: 'Inter';
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    top: 24.5px;
+    left: 832px;
+    color: #010101;
+    background-color: #ededed;
+    gap: 10px;
+
+}
+
+.caixa-4{
+    background-color: black;
+    height: 130vh;
+}
+
+.patrocinadores-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    line-height: 82.5px;
+    text-transform: capitalize;
+    gap: 30px;
+}
+
+.patrocinadores{
+    background-color: #202020;
+    width: 100%;
+    top:2688px;
+    padding: 60px 168px;
+    gap: 10px;
+    margin-top: 250px;
+}
+
+.patrocinadores-container{
+    width: 1,016px;
+    height: 360px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 80px;
+}
+
+.patrocinadores-card{
+    background-color: #010101;
+    
+}
+
+.logos{
+    width: 290px;
+    height: 360px;
+    padding: 60px;
+    gap: 10px;
+    
 }
 
 /*fim do corpo da pagina*/
