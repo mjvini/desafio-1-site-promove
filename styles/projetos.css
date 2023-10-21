@@ -109,6 +109,44 @@ header{
     flex-direction: column;
     background-color: black;
 }
+
+.titulo{
+    color: var(--Primary---Seasalt, #F9F9F9);
+    text-align: center;
+    margin-top: 185px;
+    margin-bottom: 129px;
+    /*
+    line-height: 1.5; 
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; */
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82.5px; 
+    text-transform: capitalize;
+}
+
+.projetos{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 1fr);   
+    
+    
+    width: 1224px;
+    
+    gap: 109px 24px;
+    
+}
+.img-proj{
+    max-width: 100%; 
+    height: auto;
+    margin: 10px; 
+    border: 1px solid #ddd; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+  
+}
 /*fim do corpo da pagina*/
 /*-----------------------------------------------------------------------*/
 /*footer*/
