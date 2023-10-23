@@ -263,3 +263,8 @@ footer{
     border-style: none;
     cursor: pointer;
 }
+
+.botao-linkedin-membro:hover{
+    color: white;
+    transform: scale(1.2);
+}
