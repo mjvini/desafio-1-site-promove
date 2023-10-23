@@ -96,18 +96,22 @@ header{
 .logo-twitter:hover{
     color: white;
     transform: scale(1.2);
+    cursor: pointer;
 }
 .logo-linkedin:hover{
     color: white;
     transform: scale(1.2);
+    cursor: pointer;
 }
 .logo-mail:hover{
     color: white;
     transform: scale(1.2);
+    cursor: pointer;
 }
 .logo-insta:hover{
     color: white;
     transform: scale(1.2);
+    cursor: pointer;
 }
 /* fim do header*/
 /*-----------------------------------------------------------------------*/
