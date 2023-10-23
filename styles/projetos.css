@@ -11,9 +11,9 @@ html {
 
 body {
     display: grid;
-    grid-template-columns: 1fr; /* Uma única coluna para o corpo */
-    grid-template-rows: 0fr 4fr; /* Cabeçalho, Corpo, Rodapé */
-    min-height: 100vh; /* Garante que o grid ocupe a altura total da janela */
+    grid-template-columns: 1fr; 
+    grid-template-rows: 0fr 4fr;
+    min-height: 100vh; 
     margin: 0;
 }
 /* Header */
@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
-    background: linear-gradient(180deg, #010101 61.68%, rgba(1, 1, 1, 0.00) 121.03%);
+    background: black;
 }
 .logo{
     width: 145px; 
@@ -87,18 +87,22 @@ header{
 .logo-twitter:hover{
     color: white;
     transform: scale(1.2);
+    cursor: pointer;
 }
 .logo-linkedin:hover{
     color: white;
     transform: scale(1.2);
+    cursor: pointer;
 }
 .logo-mail:hover{
     color: white;
     transform: scale(1.2);
+    cursor: pointer;
 }
 .logo-insta:hover{
     color: white;
     transform: scale(1.2);
+    cursor: pointer;
 }
 /* fim do header*/
 /*-----------------------------------------------------------------------*/
@@ -115,10 +119,6 @@ header{
     text-align: center;
     margin-top: 185px;
     margin-bottom: 129px;
-    /*
-    line-height: 1.5; 
-    margin-top: 0.5em;
-    margin-bottom: 0.5em; */
     font-family: Poppins;
     font-size: 58px;
     font-style: normal;
@@ -150,25 +150,43 @@ header{
     width: 600px;
     height: 400px;
     flex-shrink: 0;
-    /*
-    height: auto;
-    margin: 10px; 
-    border: 1px solid #ddd; 
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
 }
-svg{
-    width: 389.918px;
-    height: 93.18px;
-    flex-shrink: 0;
-    fill: #ffffff;
+.bandejapp-container{
+    position: relative;
 }
+.img-proj-b{
+    position: relative;
+    max-width: 100%;
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+}
+.proj:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.img-proj-b:hover{
+    border:solid white 2px;
+}
+.img-proj:hover{
+    border: solid white 2px;
+}
+.bandejapp{
+    position:absolute;
+    z-index: 2;
+    top:153px;
+    bottom: 153.82px;
+    left:104px;
+    right: 106.08px;
+}
+
 h3{
     color: var(--Primary---Seasalt, #F9F9F9);
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
     font-weight: 500;
-    line-height: 82.5px; /* 229.167% */
+    line-height: 82.5px; 
 }
 /*fim do corpo da pagina*/
 /*-----------------------------------------------------------------------*/
