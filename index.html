@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Pagina Inicial</title>
     <link rel="stylesheet" type="text/css" href="styles/index.css">
     <link href="https://fonts.cdnfonts.com/css/led-dot-matrix" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -20,24 +21,93 @@
               </ul>      
         </nav>
         <div class="logos-redes-sociais">
-            <img class="logo-mail"src="/icons/fi_mail.png" alt="Logo de email">
-            <img class="logo-twitter"src="/icons/fi_twitter.png" alt="Logo do twitter">
-            <img class="logo-linkedin"src="/icons/fi_linkedin.png" alt="Logo do linkedin">
-            <img class="logo-insta"src="/icons/fi_instagram.png" alt="Logo do instagram">
+            <img class="logo-mail"src="icons/fi_mail.png" alt="Logo de email">
+            <img class="logo-twitter"src="icons/fi_twitter.png" alt="Logo do twitter">
+            <img class="logo-linkedin"src="icons/fi_linkedin.png" alt="Logo do linkedin">
+            <img class="logo-insta"src="icons/fi_instagram.png" alt="Logo do instagram">
         </div>
     </header>
     <div class="corpo-pagina">
-        <div class="caixa-1">
+
+        <div class="caixa caixa-1">
+            <p class="proMove_title">ProMove</p>
+            <p class="bio">Somos um Grupo de Extensão em Desenvolvimento Móvel do Instituto
+                 de Computação (IC) da UFRJ - Universidade Federal 
+                 do Rio de Janeiro.</p>
+
+            <div class="buttons">
+            <button class="button-1">Nossos Trabalhos</button>
+            <a href="#services">
+            <button class="button-2">Solicite Um Serviço</button>
+            </a>
+            </div>
 
         </div>
-        <div class="caixa-2">
-            
+        <div class="caixa caixa-2">
+            <div id="services" class="services">
+            <header class="services-header">
+                <p class="services-title">Serviços</p>
+                <p class="services-question">Como podemos ajudar?</p>
+            </header>
+
+            <div  class="services-cards">
+                <div class="card card-1">
+                    <img class="service-icon"src="icons/rocket_icon.png" alt="Logo do Serviço X">
+                    <p class="services-name">Serviço X</p>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique lectus diam, volutpat tempus metus condimentum vel. </p>
+                </div>
+                <div class="card card-2">
+                    <img class="service-icon"src="icons/laptop_icon.png" alt="Logo Serviço Y">
+                    <p class="services-name">Serviço Y</p>
+                    <p class="service-description">Integer id ligula vehicula quam dapibus luctus viverra nec nibh. Donec vel massa neque. Nunc sollicitudin purus id orci consectetur, ac facilisis mauris tincidunt. Donec et nisi nisi.</p>
+                </div>
+                <div class="card card-3">
+                    <img class="service-icon"src="icons/console_icon.png" alt="Logo Serviço Z">
+                    <p class="services-name">Serviço Z</p>
+                    <p class="service-description">Nunc sollicitudin purus id orci consectetur, ac facilisis mauris tincidunt. Donec et nisi nisi. Fusce porta tempor elit.</p>
+                </div>
+            </div>
         </div>
-        <div class="caixa-3">
-            
         </div>
-        <div class="caixa-4">
-            
+        <div class="caixa caixa-3">
+            <div class="projeto-recente">
+                <div class="bandejapp">
+                    <img class="bandejapp-logo"src="images/LogoBandejapp.png" alt="Logo do bandejapp">
+                </div>
+
+                <div class="bandejapp-footer">
+                <p class="bandejapp-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut lopadse minim veniam, quis nostrud laboris nisi ut aliquip ex ea.</p>
+                <a href="projetos.html">
+                <button class="bandejapp-button" >Outros Projetos</button>
+                </a>
+            </div>
+            </div>
+        </div>
+        <div class="caixa caixa-4">
+            <div class="patrocinadores">
+                <header class="patrocinadores-header">
+                    <p class="services-title">Patrocinadores</p>
+                    <p class="services-question">Quem nos apoia?</p>
+                </header>
+
+                <div class="patrocinadores-container">
+                    <div class="patrocinadores-card">
+                        <a href="https://ufrj.br/">
+                        <img class="logos"src="images/ufrj.png" alt="Logo da UFRJ">
+                        </a>
+                    </div>
+                    <div class="patrocinadores-card">
+                        <a href="https://www.ccmn.ufrj.br/">
+                        <img class="logos"src="images/ccmn.png" alt="Logo do CCMN">
+                        </a>
+                    </div>
+                    <div class="patrocinadores-card">
+                        <a href="https://www.reditus.org.br/">
+                        <img class="logos"src="images/reditus.png" alt="Logo do Reditus">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
